@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 18px;
+}
+
+#home {
+  background-image: url(images/background_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#home .container-lg {
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 200px;
+  /* margin-left: 150px; */
+}
+
+#home .container-lg h1 {
+  font-size: 80px;
+  color: rgb(51, 168, 51);
+  font-weight: bold;
+}
+
+#home .container-lg h2 {
+  font-size: 70px;
+}
+
+#home .container-lg p {
+  color: rgb(137, 125, 125);
+  font-size: 25px;
+}
+
+#btn1,
+#btn2 {
+  border: none;
+  border-radius: 40px;
+  padding: 20px 30px;
+}
+
+#btn1 {
+  background-color: rgb(51, 168, 51);
+}
+
+#btn2 {
+  background-color: rgb(27, 26, 26);
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.category-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.carousel-controls-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-controls-wrapper button {
+  margin-left: 5px;
+}
+
+.card-img-top {
+  width: 120px;
+}
+
+.star {
+  color: rgb(234, 179, 85);
+}
+
+.img-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  color: white;
+  padding-left: 30px;
+}
+
+.img1 {
+  background-image: url(./images/image3.jpg);
+  height: 425px;
+}
+
+.img2 {
+  background-image: url(./images/image2.jpg);
+}
+
+.img3 {
+  background-image: url(./images/image.jpg);
+}
+
+.items button {
+  background-color: transparent;
+  color: #f0f0f0;
+}
+
+.btn-2 {
+  position: relative;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.btn-2:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(224, 232, 229);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.4s;
+}
+
+.btn-2:hover {
+  color: #81a6e1;
+}
+
+.btn-2:hover:after {
+  width: 100%;
+}
+
+.div1 {
+  margin-left: 20%;
+}
+
+.div1 h1,
+.div1 p {
+  color: #f0f0f0;
+}
+
+.div1 p {
+  width: 100%;
+  margin: 30px 20px 0;
+}
+
+.div2 input {
+  margin: 10px;
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+.div2 button {
+  margin: 10px;
+  width: 100%;
+  border: none;
+  padding: 5px;
+  color: #f0f0f0;
+  background-color: rgb(44, 38, 38);
+}
+
+.footer1 {
+  margin-top: 20px;
+}
+
+#add-to-cart {
+  display: none;
+}
+
+.Featured:hover #add-to-cart {
+  display: block;
+}
+
+.product:hover #add-to-cart {
+  display: block;
+}
+
+.product:hover {
+  scale: 1.1;
+}
+
+.main-card {
+  background-color: #c4e1f6;
+}
+
+.foodDeliver {
+  width: 600px;
+  height: 300px;
+}
+
+.contain1 {
+  background-color: rgb(22, 177, 22);
+  color: white;
+  width: 400px;
+}
+
+.contain2 {
+  background-color: rgb(8, 75, 21);
+  color: white;
+  width: 400px;
+}
+
+.contain3 {
+  background-color: rgb(215, 114, 19);
+  color: white;
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: static;
+    top: 5px;
+  }
+
+  #home .container-lg {
+    padding-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  #home .container-lg h1,
+  #home .container-lg h2 {
+    font-size: 40px;
+  }
+
+  #home .container-lg p {
+    font-size: 16px;
+  }
+
+  #btn1,
+  #btn2 {
+    padding: 8px 16px;
+  }
+
+  .sale-part {
+    margin-bottom: 10px;
+  }
+
+  .foodDeliver {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contain1 {
+    width: 300px;
+  }
+
+  .contain2 {
+    width: 300px;
+  }
+
+  .contain3 {
+    width: 300px;
+  }
+
+}
